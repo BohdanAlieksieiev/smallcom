@@ -1,6 +1,6 @@
 {
   "name": "smallcom",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The package is designed for small reagent components",
   "main": "dist/index",
   "module": "dist/index.es",
