@@ -2,16 +2,9 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
-
-# production
-/build
-/android
-/android_settings
 
 # misc
 .DS_Store

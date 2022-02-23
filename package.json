@@ -1,10 +1,14 @@
 {
   "name": "smallcom",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "The package is designed for small reagent components",
   "main": "dist/index",
   "module": "dist/index.es",
   "typings": "dist/index.es",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanAlieksieiev/smallcom"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -15,7 +19,9 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.13.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.0",
@@ -27,6 +33,7 @@
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "react": "^17.0.2",
+    "react-docgen-typescript": "^2.2.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.67.3",
     "rollup-plugin-babel": "^4.4.0",
